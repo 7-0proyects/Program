@@ -1,0 +1,12 @@
+{
+  "descripcion": "Catálogos didácticos del proyecto OBR01. No representan una norma BIM universal.",
+  "codigos": {
+    "proyecto": ["OBR01"],
+    "originador": ["EQ01", "EQ02", "ARQ01", "EST01"],
+    "zona": ["Z01", "Z02", "Z03"],
+    "nivel": ["N00", "N01", "N02", "N03"],
+    "tipo": ["PL", "MO", "DT", "ES"],
+    "disciplina": ["ARQ", "EST", "ELE", "HID", "SAN"],
+    "revision": ["R00", "R01", "R02", "R03"]
+  }
+}
