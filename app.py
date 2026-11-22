@@ -46,7 +46,7 @@ with col1:
         except (OSError, ValueError, KeyError) as exc:
             st.error(f"Error de validación: {exc}")
 confirmado = st.checkbox("Revisé la vista previa y confirmo generar las copias")
-if st.button("2. Generar copias renombradas", disabled=not confirmado, use_container_width=True):
+if st.button("2. Generar copias renombradas", disabled=not confirmado, use_container_width=True, key="btn_generar"):
     ...
 with col2:
     if st.button("2. Generar copias renombradas", use_container_width=True):
